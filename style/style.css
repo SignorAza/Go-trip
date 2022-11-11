@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "ISB"
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1140px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header-nav{
+    background: #3E8989;
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 179px 37px 165px;
+    align-items: center;
+}
+
+.header-nav-link{
+    display: flex;
+}
+
+.header-nav-list{
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+font-family: 'RM';
+border-bottom: 2px solid transparent;
+border-top: 2px solid transparent;
+transition: 300ms;
+padding: 5px 15px;
+display: block;
+}
+
+.header-nav-list:hover{
+border-bottom: 2px solid white;
+border-top: 2px solid white;
+}
+
+.header-nav-form{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px 0px 0px 20px;
+    background: #FFFFFF;
+    width: 216px;
+    border: none;
+
+}
+
+.header-nav-input{
+    border-radius: 10px 0px 0px 10px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #898989;
+    padding: 8px 16px;
+    border: none;
+    outline: none;
+}
+
+.header-nav-button{
+border-radius: 0px 10px 10px 0px;
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+background: #295E5E;
+padding: 9px 14px;
+border: none;
+cursor: pointer;
+transition: color 500ms;
+}
+
+.header-nav-button:hover{
+    color: black;
+}
+
+.header-background{
+    background: url(../images/header-content.jpg) no-repeat;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-bg-tittle{
+font-size: 80px;
+line-height: 95px;
+color: #FFFFFF;
+font-family: 'RSB';
+margin-bottom: 20px;
+}
+
+.header-bg-text{
+font-size: 40px;
+line-height: 47px;
+font-family: 'RR';
+color: #FFFFFF;
+margin-bottom: 50px;
+}
+
+.header-bg-link{
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF;
+padding: 14px 78px;
+background: #B4436C;
+border-radius: 30px;
+transition: color 300ms, background 300ms;
+}
+
+.header-bg-link:hover{
+    color: #B4436C;
+    background: #FFFFFF;
+}
+
+.main-title{
+    padding-top: 80px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    color: #3E8989;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.main-left-img{
+    width: 545px;
+}
+
+.main-right{
+    width: 545px;
+    font-family: 'RR';
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;   
+}
+.main-bottom-title{
+font-size: 40px;
+line-height: 48px;
+text-align: center;
+color: #3E8989;
+padding-top: 100px;
+}
+.main-clothes{
+    display: flex;
+    padding-top: 50px;
+}
+.main-clothes-item{
+    background: #EFEFEF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    width: 25%;
+    margin: 10px;
+    transition: background 300ms;
+    
+}
+
+.main-clothes-item:hover{
+    background: gray;
+    scale: 1.12;
+}
+
+.main-bottom-item-text{
+    display: flex;
+}
+
+.main-bottom-text{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+    margin-top: 22px;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.feedback-title{
+font-weight: 600;
+font-size: 40px;
+line-height: 48px;
+color: #3E8989;
+padding-top: 100px;
+}
+
+.feedback-box{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feedback-right{
+display: flex;
+flex-direction: column;
+
+}
+
+.feedback-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #000000;
+width: 555px;
+}
+
+.feedback-mail{
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    padding-bottom: 109px;
+}
+
+.feedback-tel{
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.footer-list{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.footer-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+color: #FFFFFF;
+font-family: 'RM';
+
+}
+
+.footer-bottom{
+font-size: 14px;
+line-height: 17px;
+color: #FFFFFF;
+text-align: center;
+margin-top: 59px;
+font-family: 'RR';
+}
+
+.footer{
+    background: #3E8989;
+    padding-top: 40px;
+    padding-bottom: 15px;
+
+}
